@@ -5,7 +5,7 @@
     state: present
 - name: copying index.html
   copy:
-    src: index.html
+    src: index.nginx-debian.html
     dest: /var/www/html/
   notify:
     - restart nginx
